@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ns1="http://mx-kg.com/relation/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://mx-kg.com/geopolitical/Japón">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
+    <foaf:name xml:lang="es">Japón</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/organization/Grupo_Puntual_Redacción_OSAKA">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Organization"/>
+    <foaf:name xml:lang="es">Grupo Puntual Redacción OSAKA</foaf:name>
+    <ns1:localizada rdf:resource="http://mx-kg.com/geopolitical/Japón"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/relation/cargo_o_puesto">
+    <foaf:name>cargo o puesto</foaf:name>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Relationship"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/relation/localizada">
+    <foaf:name>localizada</foaf:name>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Relationship"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/geopolitical/Champions">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
+    <foaf:name xml:lang="es">Champions</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/people/Ariel_Gutiérrez_Valencia">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name xml:lang="es">Ariel Gutiérrez Valencia</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/job/director_general_de_la_Red_Estatal_de_Bibliotecas">
+    <ns1:cargo_o_puesto rdf:resource="http://mx-kg.com/people/Ariel_Gutiérrez_Valencia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/people/Yolanda_Osuna_Huerta">
+    <foaf:name xml:lang="es">Yolanda Osuna Huerta</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/people/Andrés_Manuel_López_Obrador">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name xml:lang="es">Andrés Manuel López Obrador</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/organization/Instituto_Nacional_Electoral">
+    <ns1:acronimo rdf:resource="http://mx-kg.com/organization/INE"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Organization"/>
+    <foaf:name xml:lang="es">Instituto Nacional Electoral</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/organization/Dirección_General_de_Patrimonio">
+    <foaf:name xml:lang="es">Dirección General de Patrimonio</foaf:name>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Organization"/>
+    <ns1:están rdf:resource="http://mx-kg.com/organization/Secretaría_de_Cultura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/organization/Secretaría_de_Cultura">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Organization"/>
+    <foaf:name xml:lang="es">Secretaría de Cultura</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/organization/Grupo_Puntual_Redacción_ACAPULCO">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Organization"/>
+    <ns1:localizada rdf:resource="http://mx-kg.com/geopolitical/Guerrero"/>
+    <foaf:name xml:lang="es">Grupo Puntual Redacción ACAPULCO</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/job/secretaria_de_Cultura">
+    <ns1:cargo_o_puesto rdf:resource="http://mx-kg.com/people/Yolanda_Osuna_Huerta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/organization/Grupo_Puntual_Agencias_CARACAS">
+    <ns1:localizada rdf:resource="http://mx-kg.com/geopolitical/Venezuela"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Organization"/>
+    <foaf:name xml:lang="es">Grupo Puntual Agencias CARACAS</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/geopolitical/Guerrero">
+    <foaf:name xml:lang="es">Guerrero</foaf:name>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/relation/están">
+    <foaf:name>están</foaf:name>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Relationship"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/relation/acronimo">
+    <foaf:name>acronimo</foaf:name>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Relationship"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/job/presidente_de_México">
+    <ns1:cargo_o_puesto rdf:resource="http://mx-kg.com/people/Andrés_Manuel_López_Obrador"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/organization/INE">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Organization"/>
+    <foaf:name xml:lang="es">INE</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/organization/Euro">
+    <ns1:localizada rdf:resource="http://mx-kg.com/geopolitical/Champions"/>
+    <foaf:name xml:lang="es">Euro</foaf:name>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mx-kg.com/geopolitical/Venezuela">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
+    <foaf:name xml:lang="es">Venezuela</foaf:name>
+  </rdf:Description>
+</rdf:RDF>

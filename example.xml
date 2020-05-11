@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://arcturus.cs.bua.mx/kg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:mbox rdf:resource="mailto:orlandxrf@gmail.com"/>
+    <foaf:nick xml:lang="es">orlando</foaf:nick>
+    <foaf:name>Orlando Ramos Flores</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/edward">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Edward Scissorhands</foaf:name>
+    <foaf:nick rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ed</foaf:nick>
+    <foaf:mbox rdf:resource="mailto:e.scissorhands@example.org"/>
+  </rdf:Description>
+</rdf:RDF>
